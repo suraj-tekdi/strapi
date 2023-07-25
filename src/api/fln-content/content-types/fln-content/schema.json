@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fln_contents",
+  "info": {
+    "singularName": "fln-content",
+    "pluralName": "fln-contents",
+    "displayName": "fln-content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "string",
+      "required": false
+    },
+    "competency": {
+      "type": "string"
+    },
+    "contentType": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "sourceOrganisation": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "themes": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
